@@ -1,6 +1,6 @@
 variable "aws_region" {
   description = "AWS Region"
-  default     = "eu-west-2"
+  default     = "us-east-1"
 }
 
 variable "vpc_cidr" {
