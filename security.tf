@@ -53,7 +53,7 @@ resource "aws_security_group" "web_sg" {
     protocol    = "tcp"
 
     cidr_blocks = [
-      "YOUR_PUBLIC_IP/32"
+      "176.253.152.151/32"
     ]
   }
 
