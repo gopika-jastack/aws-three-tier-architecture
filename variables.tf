@@ -28,10 +28,13 @@ variable "instance_type" {
 }
 
 variable "db_username" {
-  description = "Database username"
+  description = "Database Username"
+  type        = string
+  default     = "admin"
 }
 
 variable "db_password" {
-  description = "Database password"
+  description = "Database Password"
+  type        = string
   sensitive   = true
 }
